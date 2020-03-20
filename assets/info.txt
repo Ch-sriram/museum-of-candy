@@ -1,0 +1,10 @@
+Images:
+1. Hand: https://unsplash.com/photos/faqm2syfUIE
+2. Milk: https://unsplash.com/photos/-iX-0JI8-0Y
+3. Donuts: https://unsplash.com/photos/Fq54FqucgCE
+4. Easter Eggs: https://unsplash.com/photos/AmMOtjmllmw
+5. Lollipop: https://www.clipartmax.com/png/small/301-3018538_and-candy-food-kitchen-lollipop-lolly-outline-outline-of-a-lolly.png
+
+
+fonts: 
+    Nunito [Find it @Google Fonts]

@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F5D9DF;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling Rules for Navigation Bar & its components */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainbar .nav-link:active {
+    transition: all 1s ease;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+}
+
+/* This rule is invoked by a JS function call when the document is scrolled */
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+/* Styling rules for Heading Group */
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+/* Styling for all the images present in the document */
+/* Applies to all the Images that need to be cropped */
+.Image {
+    padding: 0;
+    overflow: hidden;
+}
+
+/* This cropping applies only to the Heading Image */
+#headingImage img {
+    margin: -31.5% 0;
+}
+
+/* This cropping applies to all the images in the page except for Heading Image */
+.img-edit img {
+    margin: -31.5% 0 -15% 0;
+}
+
+/* Custom Styling on the Lollipop Image */
+img.lollipop {
+    /* background: url('../assets/pink.png') no-repeat top; */
+    /* background-size: cover; */
+    /* background-color: #F5D9DF; */
+    width: 20%;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+/* Styling for the Content that appears when we scroll */
+.content {
+    margin: 100px 0;
+}
+
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #F498B8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#contacts p {
+    font-size: 1.5rem; 
+    color: #EA1C2C;
+    font-weight: 300;
+}
+
+/* Usage of a media query for smooth transition between different sized devices */
+@media (max-width: 1500px) {
+    #headingGroup h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    #headingGroup h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 1250px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    #headingGroup h1 {
+        font-size: 2.5rem;
+    }
+}
+/* End of media queries */
